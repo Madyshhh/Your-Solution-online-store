@@ -1,0 +1,60 @@
+.nav-login-button a{ 
+    color: black; 
+}
+
+a{
+    color: black;
+}
+
+.main-heading{
+    text-align: center;
+}
+
+.login-form{
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid #3C6997;
+    border-radius: 10px;
+    
+}
+
+#user-login{
+    width: 40%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    gap: 10px;
+}
+
+#email{
+    height: 40px;
+    border: 2px solid #3C6997;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#password{
+    height: 40px;
+    border: 2px solid #3C6997;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.forgot-password{
+    align-self: flex-end;
+    font-size: 13px;
+    margin-top: 0;
+}
+
+.login-button{
+    height: 35px;
+    background-color: white;
+    border: solid 2px #d58936;
+    border-radius: 10px;
+    font-size: 15px;
+}

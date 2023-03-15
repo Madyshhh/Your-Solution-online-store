@@ -1,0 +1,54 @@
+.main-heading{
+    text-align: center;
+}
+
+/* Styles the content box */
+.content-box{
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+    border: solid 1px #3C6997;
+    border-radius: 10px;
+    padding: 10px
+}
+
+/* styles the input fields */
+#tracking input{
+    display: block;
+    height: 40px;
+    border-radius: 10px;
+    border: solid 2px #3C6997;
+    margin-bottom: 20px;
+}
+
+#tracking-number{
+    width: 30%;
+}
+
+#postcode{
+    width: 20%;
+}
+
+#track-order{
+    height: 30px;
+    background-color: white;
+    border: solid 2px #d58936;
+    border-radius: 10px;
+    width: 25%;
+}
+
+#track-order:hover{
+    background-color: #d58936;
+    transition: 0.2s;
+}
+
+.show-status{
+    width: 40%;
+    height: 150px;
+    background-color: #d6d6d6;
+    border-radius: 10px;
+}
+
+.show-status p {
+    padding-left: 10px;
+}

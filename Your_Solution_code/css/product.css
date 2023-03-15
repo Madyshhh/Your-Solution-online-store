@@ -1,0 +1,187 @@
+a{
+    color: black;
+}
+
+.product-name{
+    padding-left: 14.5%;
+    margin-bottom: 5px;
+}
+
+
+/* Style the information about washing machine */
+.product-box{
+    width: 70%;
+    margin: 0 auto;
+    font-family: 'Poppins';
+    padding: 10px;
+    background-color: white;
+    border: solid 1px #3C6997;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr 1fr;
+}
+
+.washing-machine-image{
+    width: 100%;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.display-price{
+    float: right;
+    margin-top: 10px;
+}
+
+.product-price{
+    font-weight: bold;
+    font-size: 20px;
+    display: inline;
+}
+
+.product-disc-price{
+    display: inline;
+    color: red;
+    text-decoration: line-through;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.top-info{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.review-div{
+    grid-column-start: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    width: 50%;
+    padding-top: 67px;
+}
+
+.reviews{ 
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: black;
+    border: solid 2px #d58936;
+    border-radius: 10px;
+}
+
+.add-to-basket{
+    width: 100%;
+}
+
+/* Add to basket button */
+.add-button{
+    width: 100%;   
+    height: 45px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: black;
+    border: solid 2px #d58936;
+    border-radius: 10px;
+}
+
+.add-button:hover{
+    background-color: #d58936;
+    transition: 0.2s;
+}
+
+.reviews:hover{
+    background-color: #d58936;
+    transition: 0.2s;
+}
+
+.grid-wrapper{
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.grid-stock-basket-wrapper{
+    margin-top: 10px;
+    grid-column-start: 3;
+    grid-row-start: 4;
+}
+
+.display-stock{
+    float: right;
+    align-self: end;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.product-description{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    margin-top: 30px;
+}
+
+.description{
+    padding-left: 10px;
+}
+
+.heading{
+    padding-top: 10px;
+    border-top: solid 1px #3c69976c;
+}
+
+.product-specification{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    width: 100%;
+}
+
+.product-specification table{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+.product-specification tr{
+    height: 45px;
+}
+
+.product-specification td{
+    border-bottom: solid 1px #3c699738;
+}
+
+
+/* Style discount banner */
+.discount-available{
+    background-color: #3C6997;
+    border-radius: 10px;
+    color: white;
+    width: 100%;
+    /* display: flex; */
+    display: none;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 35px;
+    margin-top: 10px;
+}
+
+.discount-icon{
+    width: 10%;
+    float: left;
+}
+
+
+/* Style delivery banner to fit grid */
+.free-delivery{
+    width: 100%;
+    height: 35px;
+    margin-top: 10px;
+}
+
+

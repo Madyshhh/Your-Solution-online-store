@@ -1,0 +1,64 @@
+.main-heading{
+    text-align: center;
+}
+
+/* Div containing form */
+.content-box{
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+    border: solid 1px #3C6997;
+    border-radius: 10px;
+}
+
+/* Form */
+.user-details-form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Style for input fields */
+.user-details-form input{
+    width: 98%;
+    height: 40px;
+    margin-bottom: 10px;
+    border: 2px solid #3C6997;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Wrapper for two input fields positioned next to each other */
+.wrapper{
+    display: flex;
+    gap: 10px;
+}
+
+.terms{
+    font-size: 13px;
+    text-align: center;
+}
+
+/* Style for proceed button */
+.proceed-button{
+    width: 50%;
+    height: 35px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: solid 2px #d58936;
+    border-radius: 10px;
+    color: black;
+    grid-column-start: 3;
+}
+
+.proceed-button:hover{
+    background-color: #d58936;
+    transition: 0.2s;
+}
+

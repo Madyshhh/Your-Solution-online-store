@@ -1,0 +1,47 @@
+.main-heading{
+    text-align: center;
+}
+
+/* Creates flex for displaying report buttons */
+.content-box{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid #3C6997;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Styles buttons */
+.report-button{
+    display: block;
+    width: 30%;
+    height: 45px;
+    text-align: center;
+    border: 2px solid #d58936;
+    border-radius: 10px;
+    color: black;
+    align-items: center;
+}
+
+.report-button p{
+    margin: 0;
+    padding-top: 10px;
+ }
+
+/* Hover style on active buttons */
+.active:hover{
+    background-color: #d58936;
+    transition: 0.2s;
+}
+
+/* Style for disabled buttons */
+.disabled{
+    border-color: grey;
+    background-color: rgba(128, 128, 128, 0.068);
+}

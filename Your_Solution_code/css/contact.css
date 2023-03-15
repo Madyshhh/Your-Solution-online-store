@@ -1,0 +1,28 @@
+.main-heading{
+    text-align: center;
+}
+
+.content-box{
+    padding: 10px;
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+    border: solid 1px #3C6997;
+    border-radius: 10px;
+}
+
+.content-box table{
+    margin-left: 20px;
+}
+
+.content-box td{
+    width: 200px;
+}
+
+#email{
+    margin-left: 20px;
+}
+
+#address{
+    margin-left: 20px;
+}

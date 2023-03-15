@@ -1,0 +1,358 @@
+/* Changes elements in all pages */
+
+
+/* Styles the main elements in all pages */
+html {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #3c699710;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1400px;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+input {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Sets the header section in all pages */
+header {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom: solid 1px #3C6997;
+}
+
+/* @media for big screen sizes */
+@media (min-width: 810px) {
+    #top-logo {
+        margin-top: 10px;
+        width: 40%;
+    }
+
+    /* Styles search form at the top of page */
+    .search-form {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        width: 30%;
+        height: 40px;
+        border: solid 2px #d58936;
+        background-color: #ffffffd7;
+        border-radius: 10px;
+    }
+
+    #search-field {
+        width: 80%;
+        height: 100%;
+        padding-left: 20px;
+        border: none;
+        border-radius: 10px;
+        background-color: transparent;
+    }
+
+    #search-button {
+        width: 20%;
+        height: 100%;
+        border: none;
+        border-radius: 10px;
+        background-color: transparent;
+    }
+
+    #search-icon {
+        margin-top: 5px;
+        width: 1.5rem;
+    }
+
+
+    /* Styles the navigation menu */
+    nav {
+        border-top: solid 1px #3C6997;
+        width: 100%;
+        min-height: 40px;
+        font-size: 16px;
+    }
+
+    .nav-list {
+        border-radius: 10px;
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+        justify-content: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .nav-list li {
+        font-weight: 400;
+        list-style: none;
+        border-radius: 10px;
+    }
+
+    .nav-list li a {
+        display: block;
+        color: #141414;
+        padding: 5px 15px 5px 15px;
+    }
+
+
+    .nav-list li:hover {
+        background-color: #d58936;
+        transition: 0.2s;
+    }
+
+    .nav-list .active {
+        background-color: white;
+        border: solid 2px #d58936;
+        border-radius: 10px;
+    }
+
+    #basket-icon {
+        display: block;
+        margin: 0 auto;
+        height: 25px;
+    }
+
+    .nav-login-button {
+        background-color: #3C6997;
+    }
+
+    .nav-list .nav-login-button a {
+        color: white;
+    }
+
+    /* Don`t show mobile nav menu */
+    .mobile-buttons-top {
+        display: none;
+    }
+
+    .mobile-navigation {
+        display: none;
+    }
+
+/* end @media for big screens */
+}
+
+
+
+/* Styles the breadcrumb trail */
+.breadcrumb-trail,
+.breadcrumb-trail a {
+    font-size: 14px;
+    color: black;
+}
+
+/* Styles the Free delivery banner */
+.free-delivery {
+    background-color: #3C6997;
+    border-radius: 10px;
+    color: white;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 35px;
+    font-size: 90%;
+}
+
+.delivery-lorry-icon {
+    width: 10%;
+    float: left;
+}
+
+/* Styles the footer */
+footer {
+    text-align: center;
+    margin: 0 auto;
+    border-top: solid 1px #3C6997;
+    margin-top: 30px;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    padding-top: 30px;
+}
+
+a:active {
+    border: none;
+}
+
+
+
+@media (max-width: 810px) {
+    li{
+        list-style: none;
+    }
+
+    #top-logo {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    .flex-wrapper{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content:space-between;
+    }
+
+    /* Styles search form at the top of page */
+    .search-form {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        float: left;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        width: 65%;
+        height: 40px;
+        border: solid 2px #d58936;
+        background-color: #ffffffd7;
+        border-radius: 10px;
+    }
+
+    #search-field {
+        width: 80%;
+        height: 100%;
+        padding-left: 20px;
+        border: none;
+        border-radius: 10px;
+        background-color: transparent;
+    }
+
+    #search-button {
+        width: 20%;
+        height: 100%;
+        border: none;
+        border-radius: 10px;
+        background-color: transparent;
+    }
+
+    #search-icon {
+        margin-top: 5px;
+        width: 1.5rem;
+    }
+
+    .mobile-buttons-top{
+        display: flex;
+        flex-direction: row;
+        width: 30%;
+        justify-content: space-around;
+        padding: 0;
+        height: 100%;
+    }
+    #mobile-basket-icon, #mobile-menu-icon{
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+
+
+    .mobile-buttons-top li:hover{
+        background-color: #d58936;
+        transition: 0.2s;
+    }
+
+
+    #mobile-nav{
+        display: none;
+    }
+    
+    ul.nav-list-mobile{
+        font-size: 18px;
+        padding: 5px;
+        overflow: hidden;
+        background-color: rgba(255, 255, 255, 0.856);
+        position:absolute;
+        right: 5%;
+        z-index: 99;
+        display: flex;
+        flex-direction: column;
+        min-width: 177px !important;
+        width: 40%;
+        flex-wrap: wrap;
+        min-width: 30%;
+        align-items: center;
+        border-radius: 10px;
+    }
+    .nav-list-mobile li:nth-child(2){
+        border: none;
+    }
+
+    .mobile-nav-login-button{
+        border: none !important;
+        justify-content: left !important;
+    }
+
+    .mobile-nav-login-button a{
+        background-color: #3C6997;
+        border-radius: 10px;
+        width: 40% !important;
+        min-width: 30%;
+        text-align: center !important;
+        color: white !important;
+        float: left !important;
+    }
+    
+    .nav-list-mobile li{
+        width: 98%;
+        border-top: solid 1px #3C6997;
+        align-items: center;
+    }
+
+    .nav-list-mobile a{
+        display: inline-block;
+        vertical-align: text-top;
+        width: 100%;
+        color: black;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-align: end;
+        border-radius: 10px;
+    }
+
+    .nav-list-mobile a:hover{
+        background-color: #d58936;
+        transition: 0.2s;
+    }
+}
+
+.errormessage{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    background-color: #bd1f00c4;
+    width: 100%;
+    border-radius: 10px;
+}

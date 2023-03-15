@@ -1,0 +1,43 @@
+.main-heading{
+    text-align: center;
+}
+
+.content-box{
+   height: 400px;
+}
+
+#delivery-form{
+    margin: 0 auto;
+    width: 70%;
+}
+
+.delivery-dates{
+    width: 100%;
+
+    /* Flex settings */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.date{
+    width: 30%;
+    background-color: #3c6997;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+
+#proceed{
+    float: right;
+    width: 30%;
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 10px;
+    background-color: white;
+    border: solid 2px #d58936;
+    border-radius: 10px;
+}

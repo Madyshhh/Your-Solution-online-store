@@ -1,0 +1,120 @@
+/* Position main heading of the page in the center */
+.main-heading{
+    text-align: center;
+}
+
+/* Main div that contains all the products */
+.display-products-box{
+    background-color: white;
+    padding: 10px;
+    border: solid 1px #3C6997;
+    border-radius: 10px;
+    width: 70%;
+    margin: 0 auto;
+    /* Flex settings */
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+/* Product div that contains all the information about product */
+.product{
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr 1fr;
+}
+
+/* Creates a line between each product in the basket */
+.line{
+    border-bottom: 1px solid #3c699760;
+}
+
+.product-image{
+    width: 100%;
+}
+
+/* Wrapper containing product name, add & remove buttons and price */
+.wrapper-one{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    padding-left: 10px;
+}
+
+.product-name{
+    margin-top: 0;
+}
+
+.price{
+    display: inline;
+    float: right;
+    padding-top: 20%;
+}
+
+/* Add or remove buttons */
+.add-or-remove-buttons{
+    padding-top: 20%;
+    display: inline-flex;
+    align-items: center;
+    width: 20%;
+    gap: 20px;
+    font-weight: 400;
+}
+
+.add-button, .remove-button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: solid 2px #d58936;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.add-button:hover, .remove-button:hover{
+    background-color: #d58936;
+    transition: 0.2s;
+}
+
+/* Wrapper containing delivery banner, total price and proceed button */
+.wrapper-two{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+/* Display total price of the basket */
+.display-total{
+    width: 30%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#total-price{
+    font-weight: bold;
+}
+
+#proceed-basket{
+    width: 30%;
+}
+
+/* Add to basket button */
+.proceed-button{
+    width: 100%;   
+    height: 45px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: black;
+    border: solid 2px #d58936;
+    border-radius: 10px;
+}
+
+.proceed-button:hover{
+    background-color: #d58936;
+    transition: 0.2s;
+}
